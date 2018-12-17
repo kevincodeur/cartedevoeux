@@ -1,0 +1,289 @@
+@import 'Reset.css';
+
+body {background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%231a004d'/%3E%3Cstop offset='1' stop-color='%23000000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%234f00b0' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%234f00b0' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;}
+
+.titre1 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; }
+.titre2 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 200ms; }
+.titre3 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 400ms; }
+.titre4 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 600ms; }
+.titre5 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 800ms; }
+.titre6 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1000ms; }
+.titre7 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1200ms; }
+.titre8 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1400ms; }
+.titre9 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1600ms; }
+.titre10 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 1800ms; }
+.titre11 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 2000ms; }
+.titre12 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 2200ms; }
+.titre13 {animation-fill-mode: forwards; opacity:0; -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; animation-delay: 2400ms; }
+
+
+@-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+
+.motjoie, .mottravail, .motchance {
+    animation-fill-mode: forwards;
+    opacity: 0;
+    -webkit-animation-name: swoopInTop;
+    animation-name: swoopInTop;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    animation-delay: 250ms; }
+
+    .annee1, .annee3 {
+        animation-fill-mode: forwards;
+        opacity: 0;
+        -webkit-animation-name: swoopInTop;
+        animation-name: swoopInTop;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        animation-delay: 4000ms; }
+  
+  @keyframes swoopInTop {
+
+    from { opacity: 0; }
+        to { opacity: 1; }
+
+    0% {
+      opacity: 0;
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: scaleY(1) translate3d(0, -400px, 0);
+      transform: scaleY(1) translate3d(0, -400px, 0); }
+     
+    100% {
+      -webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      -webkit-transform: scaleY(1) translate3d(0, 0, 0);
+      transform: scaleY(1) translate3d(0, 0, 0); } }
+
+    .motpaix, .motprosperite, .motamitie {
+    animation-fill-mode: forwards;
+      opacity: 0;
+    -webkit-animation-name: swoopInBottom;
+    animation-name: swoopInBottom;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    animation-delay: 1000ms; }
+
+    .annee2, .annee4{
+        animation-fill-mode: forwards;
+          opacity: 0;
+        -webkit-animation-name: swoopInBottom;
+        animation-name: swoopInBottom;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        animation-delay: 4000ms; }
+  
+  @keyframes swoopInBottom {
+
+    from { opacity: 0; }
+        to { opacity: 1; }
+
+    0% {
+      opacity: 0;
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: scaleY(1) translate3d(0, 250px, 0);
+      transform: scaleY(1) translate3d(0, 250px, 0); }
+
+    100% {
+      -webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      -webkit-transform: scaleY(1) translate3d(0, 0, 0);
+      transform: scaleY(1) translate3d(0, 0, 0); } }
+
+.motsucces, .motbonheur {
+animation-fill-mode: forwards;
+opacity: 0;
+-webkit-animation-name: swoopInLeft;
+animation-name: swoopInLeft;
+-webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    animation-delay: 1750ms; }
+
+@keyframes swoopInLeft {
+
+    from { opacity: 0; }
+    to { opacity: 1; }
+
+0% {
+    opacity: 0;
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: scaleX(1) translate3d(-400px, 0, 0);
+    transform: scaleX(1) translate3d(-400px, 0, 0); }
+
+100% {
+    -webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    -webkit-transform: scaleX(1) translate3d(0, 0, 0);
+    transform: scaleX(1) translate3d(0, 0, 0); } }
+    
+.motsante, .motreussite, .motsatisfaction {
+animation-fill-mode: forwards;
+opacity: 0;
+-webkit-animation-name: swoopInRight;
+animation-name: swoopInRight;
+-webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    animation-delay: 2500ms; }
+
+@keyframes swoopInRight {
+
+    from { opacity: 0; }
+    to { opacity: 1; }
+
+0% {
+    opacity: 0;
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: scaleX(1) translate3d(400px, 0, 0);
+    transform: scaleX(1) translate3d(400px, 0, 0); }
+
+100% {
+    -webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    -webkit-transform: scaleX(1) translate3d(0, 0, 0);
+    transform: scaleX(1) translate3d(0, 0, 0); } }
+
+
+.etoilehaut {opacity: 0; animation: fadeIn 2s; animation-delay: 4000ms; animation-fill-mode: forwards;}
+.etoile1 {opacity: 0; animation: fadeIn 1s; animation-fill-mode: forwards;}
+.etoile2 {opacity: 0; animation: fadeIn 1s; animation-delay: 200ms; animation-fill-mode: forwards;}
+.etoile3 {opacity: 0; animation: fadeIn 1s; animation-delay: 400ms; animation-fill-mode: forwards;}
+.etoile4 {opacity: 0; animation: fadeIn 1s; animation-delay: 600ms; animation-fill-mode: forwards;}
+.etoile5 {opacity: 0; animation: fadeIn 1s; animation-delay: 800ms; animation-fill-mode: forwards;}
+.etoile6 {opacity: 0; animation: fadeIn 1s; animation-delay: 1000ms; animation-fill-mode: forwards;}
+.etoile7 {opacity: 0; animation: fadeIn 1s; animation-delay: 1200ms; animation-fill-mode: forwards;}
+.etoile8 {opacity: 0; animation: fadeIn 1s; animation-delay: 1400ms; animation-fill-mode: forwards;}
+.etoile9 {opacity: 0; animation: fadeIn 1s; animation-delay: 1800ms; animation-fill-mode: forwards;}
+.etoile10 {opacity: 0; animation: fadeIn 1s; animation-delay: 2000ms; animation-fill-mode: forwards;}
+.etoile11 {opacity: 0; animation: fadeIn 1s; animation-delay: 2200ms; animation-fill-mode: forwards;}
+.etoile12 {opacity: 0; animation: fadeIn 1s; animation-delay: 2400ms; animation-fill-mode: forwards;}
+.etoile13 {opacity: 0; animation: fadeIn 1s; animation-delay: 2600ms; animation-fill-mode: forwards;}
+.etoile14 {opacity: 0; animation: fadeIn 1s; animation-delay: 2800ms; animation-fill-mode: forwards;}
+.etoile15 {opacity: 0; animation: fadeIn 1s; animation-delay: 3000ms; animation-fill-mode: forwards;}
+.etoile16 {opacity: 0; animation: fadeIn 1s; animation-delay: 3200ms; animation-fill-mode: forwards;}
+.etoile17 {opacity: 0; animation: fadeIn 1s; animation-delay: 3400ms; animation-fill-mode: forwards;}
+.etoile18 {opacity: 0; animation: fadeIn 1s; animation-delay: 3600ms; animation-fill-mode: forwards;}
+.etoile19 {opacity: 0; animation: fadeIn 1s; animation-delay: 3800ms; animation-fill-mode: forwards;}
+.etoile20 {opacity: 0; animation: fadeIn 1s; animation-delay: 4000ms; animation-fill-mode: forwards;}
+.tracesapin {opacity: 0; animation: fadeIn 4200ms; animation-fill-mode: forwards;}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.titre {margin-top:20px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    color: #FFAC3A;
+    opacity: 0; animation: fadeIn 4200ms; animation-fill-mode: forwards;}
+
+.bloctitre { display: flex;
+            justify-content: center;
+            margin-top:30px;}
+
+.blocmail {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+
+
+.buttonsubmit {margin-left: 40px;
+            width:90px;
+            height: 30px;
+            border-radius: 20px;
+            background-color:rgb(6, 0, 32);
+            border: 2px solid rgb(0, 89, 255);
+            color: white;
+            font-size: 18px; }
+
+.buttonsubmit:hover {margin-left: 40px;
+    width:90px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:rgb(6, 0, 32);
+    border: 2px solid rgb(0, 89, 255);
+    color: #FFAC3A;
+    font-size: 18px; }
+
+.inputmail {width: 350px;
+            height: 30px;
+            border-radius: 20px;
+            border: 2px solid rgb(0, 89, 255);
+            background-color: rgb(6, 0, 32);
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 30px;}
+
+
+
+form {display: flex;}
+
+.main {display: flex;
+    justify-content: space-between;}
+
+@media (max-width:1400px) {
+    .main {justify-content: center;
+        flex-wrap: wrap;}
+
+    .bloclettrage,.blocsapin {width:100%;
+                justify-content: center;
+                display: flex;}
+    
+}
+
+@media (max-width: 450px) {
+        #imgsapin, #imglettrage {
+            height: 350px;
+        }
+        
+    }
+
+@media (max-width: 500px ) {
+    .blocmail {display: flex;
+            justify-content: center;}
+
+    .blocinputmail, .blocinputsubmit {justify-content: center;
+    display: flex;}
+
+    .buttonsubmit {margin: 0;}
+
+    form {flex-direction: column;}
+
+}
+
+@media (max-width: 390px) {
+    .inputmail {width:250px;}
+}
